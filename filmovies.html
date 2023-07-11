@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilMovies</title>
+    <link rel="furniture.html" href="furniture.html">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        @import url(css/bootstrap.min.css);
+        body{
+          background-color: rgb(20, 12, 12);
+          background-repeat: no-repeat;
+          color: aliceblue;
+        }
+        #top{
+          padding: 2px;
+          color: rgb(122, 12, 34);
+        }
+        #low{
+          padding: 3px;
+          color: aliceblue;
+        }
+        #middle{
+          padding: 3px;
+          color: rgb(44, 8, 8);
+        }
+        footer{
+          background-color: rgb(28, 4, 4);
+          color: aliceblue;
+        }
+              
+    </style>
+</head>
+<body>
+   
+  <header>
+    <div class="px-3 py-2 text-bg-dark" width="auto">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+          </a>
+
+          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+            <li>
+              <a href="#" class="nav-link text-secondary">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"/></svg>
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
+                Orders
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
+                Products
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
+                Customers
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="px-3 py-2 border-bottom mb-3">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-light text-dark me-2">Login</button>
+          <button type="button" class="btn btn-primary">Sign-up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="b-example-divider"></div>
+</main>
+
+
+
+
+           
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="movies/img1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="movies/img2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="movies/img3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<div class="row">
+  <div class="col-lg-4">
+        <img src="movies/wp3982537-films-4k-wallpapers.jpg" alt=""class="rounded-circle"width="140"height="140"role="img"aria-label="placeholder">
+    <h2 class="fw-normal">venom</h2>
+    <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+  </div>
+  <div class="col-lg-4">
+        <img src="movies/wp4280803-films-4k-wallpapers.jpg" alt=""class="rounded-circle"width="140"height="140"role="img"aria-label="placeholder">
+    <h2 class="fw-normal">cartoons</h2>
+    <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+  </div>
+  <div class="col-lg-4">
+    <img src="movies/wp4926059-films-4k-wallpapers.jpg" alt=""class="rounded-circle"width="140"height="140"role="img"aria-label="placeholder">
+    <h2 class="fw-normal">marvels</h2>
+    <p>And lastly this, the third column of representative placeholder content.</p>
+    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+  </div>
+</div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col-md-auto">
+     <img src="movies/wp6188511-films-4k-wallpapers.jpg" alt=""width="250">
+     
+    </div>
+    <div class="col-md-auto">
+    <img src="movies/wp8118025-films-4k-wallpapers.jpg" alt=""width="250">
+    
+    </div>
+    <div class="col-md-auto">
+    <img src="movies/wp7653796-films-4k-wallpapers.jpg" alt=""width="250">
+    
+    </div>
+    <div class="col-md-auto">
+      <img src="movies/wp8118025-films-4k-wallpapers.jpg" alt=""width="250">
+    </div>
+    <hr id="top">
+    
+    
+   </div>
+  </div>
+</div>
+<div class="container">  
+  <div class="row">
+   <div class="col-md-8">
+        <img class="img-responsive" src="movies/wp9049781-films-4k-wallpapers.jpg" width="700"/>
+   </div>
+   <div class="col-md-4">
+       <div class="row">
+           <div class="col-sm-12">
+               <img class="img-responsive" src="movies/wp9049788-films-4k-wallpapers.jpg"width="340" />
+           </div>
+       </div>
+       <div class="row bottom-right">
+           <div class="col-sm-12">
+               <img class="img-responsive" src="movies/wp9049785-films-4k-wallpapers.jpg" width="340"/>
+           </div>
+       </div>
+   </div>
+  </div>
+<hr id="low">
+
+  <div class="row">
+    <div class="col-md-auto">
+     <img src="movies/wp4280803-films-4k-wallpapers.jpg" alt=""width="250">
+     
+    </div>
+    <div class="col-md-auto">
+    <img src="movies/wp9049779-films-4k-wallpapers.jpg "alt=""width="250">
+    
+    </div>
+    <div class="col-md-auto">
+    <img src="movies/wp8561629-films-4k-wallpapers.jpg" alt=""width="250">
+    
+    </div>
+    <div class="col-md-auto">
+      <img src="movies/wp8118025-films-4k-wallpapers.jpg" alt=""width="250">
+    </div>
+
+<hr id="middle">
+
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="movies/wp9049788-films-4k-wallpapers.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+
+    <img
+      src="movies/wp9049807-films-4k-wallpapers.jpg"height="508"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="movies/wp9049880-films-4k-wallpapers.jpg"height="515"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Mountains in the Clouds"
+    />
+
+    <img
+      src="movies/wp9049816-films-4k-wallpapers.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="movies/wp9049792-films-4k-wallpapers.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="movies/wp9049761-films-4k-wallpapers.jpg"height="530"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+</div>
+
+
+<footer>
+  <p class="h1">FilMovies</p>
+<div class="row">
+  <div class="col-6">
+   <ul>
+    <li>home</li>
+    <li>about</li>
+    <li>contact us </li>
+       </ul>
+  </div>
+  <div class="col-6">
+    <ul>
+      <li>FAQs</li>
+    <li>Features</li>
+    <li>pricing</li>
+    </ul>
+  </div>
+  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+    <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+    <ul class="list-unstyled d-flex">
+      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+    </ul>
+  </div>
+</footer>
+</div>
+</div>
+
+
+
+
+</body>
+</html>

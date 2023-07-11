@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        @import url(css/bootstrap.css);
+        *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu_bar{
+    background-color:black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.logo{
+    color: aliceblue;
+    font-size: 70px;
+}
+.logo span{
+    color: blue;
+}
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+.menu_bar ul li{
+    padding: 10px 30px ;
+    position: relative;
+}
+.menu_bar ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 2opx;
+    transition: 0.3s;
+}
+.menu_bar ul li a:hover{
+    color: blue;
+}
+.dropdown_menu{
+    display: none;
+}
+
+.menu_bar ul li a:hover.dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    background-color: black;
+}
+.dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown_menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+#top{
+    height: 2px;
+    background-color: blue;
+}
+#low{
+    height: 2px;
+    background-color: cornflowerblue;
+}
+footer{
+    min-height: 150%;
+    background-color: rgb(5, 5, 5);
+    color: aliceblue;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="menu_bar">
+        <h1 class="logo">My <span>code</span></h1>
+        <ul>
+            <li><a href="blank">Home</a></li>
+            <li><a href="blank">About</a></li>
+            <li><a href="blank">Contact us</a></li>
+            <li><a href="blank">Blogs</a></li>
+            <li><a href="blank">pages <i class="fas fa-caret-down"></i></a></li> 
+            <div class="dropdown_menu">
+                <ul>
+                    <li><a href="blank">2nd page</a></li>
+                    <li><a href="blank">3rd page</a></li>
+                    <li><a href="blank">4th page <i class="fas fa-caret-right"></i></a></li>
+                    <li><a href="blank">5th page</a></li>
+                    <li><a href="blank">6th page</a></li>
+                  
+                </ul>
+            </div>
+            <li><a href="blank">terms and conditions</a>
+            </li>
+        </ul>
+    </div>
+    <h2>About i phone x max</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi corporis minus vero laborum consectetur asperiores, iste rem nobis pariatur fugiat! Deserunt tenetur corporis, fugit libero veritatis reiciendis voluptas vero corrupti aut autem dolorem facere ut provident eligendi voluptates voluptatem nemo ab ipsa officiis sunt aperiam nesciunt! Animi quas necessitatibus molestias atque a blanditiis velit pariatur cupiditate aliquam dolores? Unde accusamus aperiam, fugiat voluptas rem, deleniti quidem ut temporibus veniam ipsam blanditiis iusto voluptate exercitationem alias numquam maxime officia laudantium. Dolore!
+                </p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum totam laudantium, numquam saepe atque fugit molestias! Consectetur ducimus qui aut excepturi alias molestiae nulla sint consequatur. Reprehenderit blanditiis ratione, harum quas in velit explicabo, aspernatur nostrum eaque quae hic. Dolorum!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nulla ducimus deleniti voluptas delectus. Fuga ipsam hic quisquam ut placeat.</p>
+            </div>
+            <div class="col-4">
+               <img src="image/images.jfif" alt=""width="130%"height="350px">
+            </div>
+        </div>
+        <hr id="top">
+        </div>
+        <h3>about i phone 14 pro max</h3>
+        <div class="row">
+            <div class="col-4">
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel-control-next-icon">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="image/download.jfif" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="image/images (3).jfif" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="image/download (2).jfif" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                
+            </div>
+            <div class="col-8">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet similique, porro cupiditate optio consequatur recusandae quas. Magni illum quis veritatis consequatur exercitationem adipisci dolores necessitatibus illo ad, fugiat quaerat dolorum iusto natus quasi deleniti eius pariatur enim voluptatem! Dolorum laboriosam libero tempore ut at dolore delectus ea neque doloribus mollitia quibusdam doloremque hic iure, laudantium quaerat eaque, ratione voluptas eum minus, fugit rem praesentium numquam. Fuga facilis deleniti culpa exercitationem unde dolor eligendi qui delectus recusandae! Tempora blanditiis quibusdam eum!</p>
+                <iframe width="900" height="300" src="https://www.youtube.com/embed/WXHeyz7_9fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <hr id="low">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quis hic reprehenderit repellendus modi earum placeat explicabo neque ut autem tenetur rem facere laboriosam voluptas nam veniam amet, delectus a temporibus id enim eveniet. Doloremque autem ullam blanditiis similique explicabo!</p>
+              </div>
+        </div>
+    </div>
+    <footer>
+        
+        <div class="container-footer">
+            <p dir="rtl"class="h4">Thanks for <strong class="h2">Visit our site</strong></p>
+            <div class="row">
+                <div class="col-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis placeat labore repellat, dolor ipsa similique, dolore ab minima maxime debitis architecto reiciendis doloremque est excepturi odio alias iste dolorem nostrum vero voluptates natus sunt, ipsum illo? Harum, inventore totam. Quas!</p>
+                </div>
+                <div class="col-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id expedita necessitatibus inventore quae aliquam distinctio nam nesciunt officia, quasi maxime eos nihil vero minima neque aut illum repellat voluptate temporibus tempora? Fuga veritatis praesentium rem? Neque doloribus minus a explicabo, dolorum culpa asperiores mollitia ipsa consectetur possimus repudiandae esse numquam aspernatur velit voluptatum optio aliquam nisi itaque nulla quam placeat.</p>
+                </div>
+                <div class="col-4">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt itaque iure sint eius rerum eveniet aspernatur reprehenderit ratione nostrum libero, omnis totam optio voluptates ab molestias veniam ducimus! Laborum, sapiente.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+ </body>
+</html>
